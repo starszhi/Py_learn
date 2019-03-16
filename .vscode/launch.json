@@ -9,7 +9,7 @@
             "type": "python",
             "request": "launch",
             "stopOnEntry": false,
-            "pythonPath": "/usr/bin/python3",
+            "pythonPath": "/usr/local/bin/python3",
             "program": "${file}",
             "cwd": "${workspaceFolder}",
             "env": {},
@@ -52,7 +52,6 @@
             "console": "externalTerminal",
             "env": {},
             "envFile": "${workspaceFolder}/.env",
-            "debugOptions": []
         },
         {
             "name": "Python: Django",
