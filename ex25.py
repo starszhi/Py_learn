@@ -14,8 +14,8 @@ def print_first_word(words):
 
 def print_last_word(words):
     """prints the last word after popping it off."""
-    words = word.pop(-1)
-    print(word)
+    words = words.pop(-1)
+    print(words)
 
 def sort_sentence(sentence):
     """Takes in a full sentence and returns the sorted words"""
